@@ -84,6 +84,7 @@ st.markdown("""
     font-size: 18px;
     font-weight: bold;
     font-style: italic;
+    text-align: center;
 }
 </style>
 <div class="footer">
@@ -198,4 +199,5 @@ if uploaded_file is not None:
             st.info("🔔 Nhắc lại: Mở file → Ctrl+A → F9 → Update entire table để hiện số liệu.")
             
         except Exception as e:
+
             st.error(f"Có lỗi xảy ra: {e}")
